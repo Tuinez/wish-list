@@ -15,13 +15,13 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_967969_wish_list_wish_item">quantity&lt;=0^EQ<item endquery="false" field="quantity" goto="false" newquery="false" operator="&lt;=" or="false" value="0"/>
+        <filter_condition table="x_967969_wish_list_wish_item">quantity&lt;1^EQ<item endquery="false" field="quantity" goto="false" newquery="false" operator="&lt;" or="false" value="1"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
         <name>Validate Quantity</name>
-        <order>100</order>
+        <order>50</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
